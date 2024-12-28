@@ -30,18 +30,22 @@ void main() {
   print(federalSchools);
 
   // how to fetch keys
-
   print(federalSchools.keys);
 
+  //how to fetch values
   print(federalSchools.values);
 
   federalSchools.clear();
   print(federalSchools);
 
   // Adding new set of key-value pairs
-
-  federalSchools.addAll(
-      {"Edo": "AAU", "Imo": "FUTO", "Benin": "Uniben", "Rivers": "Uniport"});
+  federalSchools.addAll({
+    "Edo": "AAU",
+    "Imo": "FUTO",
+    "Benin": "Uniben",
+    "Rivers": "Uniport",
+    "Lagos": "Unilag"
+  });
   print(federalSchools);
 
   print("The Fed School in Benin is: ${federalSchools["Edo"]}");
