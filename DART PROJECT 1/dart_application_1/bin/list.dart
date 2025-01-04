@@ -1,9 +1,9 @@
 void main() {
   //List
   var familyNames = ["John", "Sade", "Afo", "Lookman", "Jamiu"];
-  print("Name of children in the Family: $familyNames");
+  print("Names of children in the Family: $familyNames");
 
-  familyNames.add("Obarho"); // add to list
+  familyNames.add("Obarho"); // add to existing  list
   print("Names of children in the family: $familyNames");
 
   familyNames.addAll(["Neku", "Chuks"]); //add multiple value to list

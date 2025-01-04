@@ -12,7 +12,7 @@ void main() {
 //Double (numbers with decimal)
 
   double weight = 65.64;
-  print('Total size of gas: $weight');
+  print('Total size of gas: $weight kg');
 
 // Boolean (Yes or No option)
   bool wrong = true;

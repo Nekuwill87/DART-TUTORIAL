@@ -11,9 +11,9 @@ void main() {
       "Numbers of Federal Schools: ${federalSchools.length}"); //lenghth of key-value in the loop
 
   print(
-      "Name of the Federal schools in Edo State: ${federalSchools["Edo"]}"); // Accessing a value in the map by using the key
+      "Name of the Federal school in Edo State: ${federalSchools["Edo"]}"); // Accessing a value in the map by using the key
 
-  // Adding key value pars to an existing list
+  // Adding key value pairs to an existing list
 
   federalSchools["Ibadan"] = "UI"; // Method 1
   print(federalSchools);
